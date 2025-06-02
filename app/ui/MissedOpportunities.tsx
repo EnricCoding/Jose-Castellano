@@ -1,4 +1,4 @@
-import { BarChart, TrendingUp} from 'lucide-react';
+import { BarChart, TrendingUp } from 'lucide-react';
 
 export default function MissedOpportunities() {
 
@@ -32,10 +32,9 @@ export default function MissedOpportunities() {
                         ))}
                     </div>
                 </div>
-              
+
             </div>
         </section>
 
     )
-
 }

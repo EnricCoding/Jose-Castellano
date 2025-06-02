@@ -3,7 +3,6 @@ import Image from 'next/image';
 export default function Hero() {
     return (
         <section className="hero relative h-screen flex flex-col justify-center items-center text-center px-4 overflow-hidden">
-            {/* Imagen de fondo */}
             <Image
                 src="/assets/hero-image.jpeg"
                 alt="Professional networking on LinkedIn"
@@ -13,7 +12,6 @@ export default function Hero() {
             />
             <div className="absolute inset-0 opacity-60"></div>
 
-            {/* Contenido */}
             <div className="relative z-10 max-w-3xl animate-fade-in">
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-white">
                     Potencia tu Marca Personal en{' '}

@@ -10,15 +10,15 @@ import Services from "./ui/Services";
 
 export default function Home() {
   return (
-      <div>
-        <Navbar></Navbar>
-        <Hero></Hero>
-        <MissedOpportunities></MissedOpportunities>
-        <Advantages></Advantages>
-        <About></About>
-        <Services></Services>
-        <Contact></Contact>
-        <Footer></Footer>
-      </div>
+    <div>
+      <Navbar></Navbar>
+      <Hero></Hero>
+      <MissedOpportunities></MissedOpportunities>
+      <Advantages></Advantages>
+      <About></About>
+      <Services></Services>
+      <Contact></Contact>
+      <Footer></Footer>
+    </div>
   );
 }

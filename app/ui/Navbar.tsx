@@ -23,7 +23,6 @@ export default function Navbar() {
 
     return (
         <header className="fixed w-full z-50">
-            {/* Background element */}
             <div
                 className={`absolute inset-0 transition-opacity duration-300 ${isOpen || isScrolled ? 'opacity-100' : 'opacity-0'
                     }`}
@@ -76,7 +75,6 @@ export default function Navbar() {
                 </div>
             </nav>
 
-            {/* Menu desplegable */}
             <div
                 className={`fixed top-0 right-0 h-full w-64 bg-white shadow-lg transform transition-transform duration-300 ease-in-out z-50 ${isOpen ? 'translate-x-0' : 'translate-x-full'
                     }`}
@@ -106,7 +104,6 @@ export default function Navbar() {
                 </div>
             </div>
 
-            {/* Fondo opaco detrás del menú */}
             {isOpen && (
                 <div
                     className="fixed inset-0 bg-black bg-opacity-50 z-40"
